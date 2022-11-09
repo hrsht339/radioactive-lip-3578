@@ -1,0 +1,114 @@
+body{
+    /* width: 80%;
+    margin: auto; */
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 15px 0px;
+    width: 80%;
+    margin: auto;
+}
+.nav2{
+    display: flex ;
+    justify-content: space-between;
+    margin: 10px auto ;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 80%;
+    /* margin: auto; */
+}
+.nav2>img{
+    margin-left: 35%;
+    width: 300px;
+    /* height: 36px; */
+}
+.nav3{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+
+    /* position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s */
+
+}
+.nav1 a,.nav2 a,.nav3 a{
+    margin: 0px 5px;
+    color: gray;
+    text-decoration: none;
+}
+.nav3>input{
+    padding: 5px;
+    width: 250px;
+}
+body>p:nth-child(5){
+    font-size: 17px;
+    text-align: center;
+    color: #9f2943;
+}
+body>a>img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+body>a:nth-child(7){
+    display: block;
+    margin: 30px 0px;
+}
+.roger-vivier{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.roger-vivier h4{
+    font-size: 16px;
+}
+.roger-vivier h1{
+    font-size: 34px;
+}
+.leg-section{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.leg-section img{
+    width: 580px;
+}
+.leg-section>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.leg-section>div>div{
+    margin-top: 25px;
+}
+body>p,body>h1{
+    text-align: center;
+}
+.cards img{
+    width: 280px;
+}
+.cards{
+    width: 80%;
+    margin: auto;
+}
+.cards>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.cards>button{
+    display: block;
+    margin: auto;
+}
