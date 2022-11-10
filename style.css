@@ -111,4 +111,53 @@ body>p,body>h1{
 .cards>button{
     display: block;
     margin: auto;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    margin-bottom: 60px;
+}
+.para{
+    width: 70%;
+    margin: auto;
+}
+.para h1{
+    font-size: 15px;
+}
+.para>h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.para p,.para li{
+    font-size: 15px;
+}
+.agal-bagal{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+    display: flex;
+}
+.category{
+    border: 2px solid blue;
+    width: 280px;
+}
+.cards-men{
+    border: 2px solid green;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.cards-men img{
+    width: 268px;
+    height: 306px;
+   
+}
+.cards-men>div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 268px;
+    /* height: 471px; */
 }
