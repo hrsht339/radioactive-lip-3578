@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>women</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="nav1">
         <div>
@@ -21,16 +23,16 @@
             <a href="">My wishlist</a>
             <a href="">India | English</a>
         </div>
-       </div>
-       <div class="nav2">
+    </div>
+    <div class="nav2">
         <img src="logo.png" alt="">
         <div>
             <a href="">SHOPPING BAG</a>
             <img src="" alt="">
-    
+
         </div>
-       </div>
-       <div class="nav3">
+    </div>
+    <div class="nav3">
         <div>
             <a href="">NEW ARRIVALS</a>
             <a href="">DESIGNERS</a>
@@ -38,11 +40,62 @@
             <a href="">SHOES</a>
             <a href="">BAGS</a>
             <a href="">ACCESSORIES</a>
-            <a href="">JEWELRY</a>
+            <a href="jewel.html">JEWELRY</a>
             <a href="">FESTIVE SEASON</a>
             <a href="">SALE</a>
         </div>
-        <input type="text" placeholder="Search for...">
-       </div>
+        <input type="text" oninput="search()" placeholder="Search for...">
+    </div>
+
+    <hr>
+
+    <div class="nav4">
+        <label for="">Sort By: </label>
+        <select name="" id="sort" onchange="sort()">
+            <option value="">select</option>
+            <option value="low to high">low to high</option>
+            <option value="high to low">high to low</option>
+        </select>
+    </div>
+
+
+    <hr>
+    <div class="main">
+        <div class="category">
+            <a href="">NEW ARRIVALS</a><br>
+            <a href="">
+                <p>Current Week<p>
+            </a>
+            <a href="">Previous Weeks</a><br><br>
+            <a href="">Essentials</a><br><br>
+            <a href="">Tailoring Edit</a><br><br>
+            <a href="">Loungewear</a><br><br>
+            <a href="">Outdoor & Activewear</a><br><br>
+            <a href="">Cold Weather Edit</a><br><br>
+            <a href="">The Ski Edit</a><br><br>
+            <hr>
+            <a href="">
+                <p>Category</p>
+            </a>
+            <form action="">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Accessories</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Bags</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Clothing</label><br>
+                <input type="checkbox" value="vehicle4">
+                <label for="vehicle3"> Shoes</label><br>
+
+
+            </form>
+        </div>
+        <div class="cards-men">
+
+        </div>
+    </div>
 </body>
+
 </html>
+
+<script src="women.js"></script>

@@ -48,6 +48,12 @@ body{
     padding: 5px;
     width: 250px;
 }
+
+.nav4{
+    width: 80%;
+    margin: auto;
+}
+
 body>p:nth-child(5){
     font-size: 17px;
     text-align: center;
@@ -137,27 +143,48 @@ body>p,body>h1{
 .main{
     width: 80%;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
 }
 .category{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 280px;
+    /* display: flex;
+    flex-direction: column; */
+    color: gray;
+    margin-top: 50px;
+}
+.category a{
+text-decoration: none;
+color: gray;
+
+}
+.category p{
+    color: black;
+    font-weight: bolder
 }
 .cards-men{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 50px;
+    text-align: center;
+    
 }
 .cards-men img{
     width: 268px;
     height: 306px;
    
 }
+
+.cards-men p{
+color: gray;
+}
+
 .cards-men>div{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     width: 268px;
     /* height: 471px; */
+    margin: 20px auto 20px auto;
+    padding: 10px;
 }
