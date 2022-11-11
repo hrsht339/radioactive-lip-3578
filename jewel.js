@@ -1,7 +1,7 @@
 arr=JSON.parse(localStorage.getItem("products"))
 arr=arr.filter((elem)=>{
     // console.log(elem)
-    return elem.category==="men's clothing"
+    return elem.category==="jewelery"
     
 })
 console.log(arr)
