@@ -25,10 +25,26 @@ function display(arr){
         price=document.createElement("h4")
         price.innerText=`€ ${elem.price}`
 
-        divs.append(image,title,des,price)
+        button=document.createElement("button")
+        button.innerText="Add To Cart"
+        button.addEventListener("click",()=>{
+            cartelem(elem)
+        })
+
+        divs.append(image,title,des,price,button)
         cards.append(divs)
     })
 }
+
+function cartelem(elem){
+    cart=JSON.parse(localStorage.getItem("cart"))||[]
+    cart.push(elem)
+    localStorage.setItem("cart",JSON.stringify(cart))
+
+}
+
+
+
 function search(){
 bar=document.querySelector(".nav3>input").value
 // console.log(bar)

@@ -25,7 +25,7 @@
        <div class="nav2">
         <img src="logo.png" alt="">
         <div>
-            <a href="">SHOPPING BAG</a>
+            <a href="cart.html">SHOPPING BAG</a>
             <img src="" alt="">
     
         </div>
@@ -42,11 +42,19 @@
             <a href="">FESTIVE SEASON</a>
             <a href="">SALE</a>
         </div>
-        <input type="text" placeholder="Search for...">
+        <input type="text" oninput="search()" placeholder="Search for...">
        </div>
 
        <hr>
 
+       <div class="nav4">
+        <label for="">Sort By: </label>
+        <select name="" id="sort" onchange="sort()">
+            <option value="">select</option>
+            <option value="low to high">low to high</option>
+            <option value="high to low">high to low</option>
+        </select>
+    </div>
 
     <div class="main">
         <div class="category">
