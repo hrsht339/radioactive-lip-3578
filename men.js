@@ -14,6 +14,10 @@ function display(arr){
 
         image=document.createElement("img")
         image.src=elem.image
+        image.addEventListener("click",()=>{
+            localStorage.setItem("individual",JSON.stringify(elem))
+            location.href="individual.html"
+        })
 
         title=document.createElement("h4")
         title.innerText=elem.title

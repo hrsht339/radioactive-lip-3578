@@ -1,10 +1,10 @@
 arr=JSON.parse(localStorage.getItem("products"))
 cards=document.querySelector(".cards-men")
-arr=arr.filter((elem)=>{
-    // console.log(elem)
-    return elem.category==="women's clothing"
+// arr=arr.filter((elem)=>{
+//     // console.log(elem)
+//     return elem.category==="women's clothing"
     
-})
+// })
 console.log(arr)
 cards=document.querySelector(".cards-men")
 
